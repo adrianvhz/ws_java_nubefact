@@ -1,0 +1,33 @@
+2023-01-16 14:10:15 [restartedMain] INFO  M4G.Vivemas.VivemasApplication - Starting VivemasApplication using Java 19 on DESKTOP-KIIBK8I with PID 5972 (E:\WS Vivemas\Vivemas\target\classes started by omarn in E:\WS Vivemas\Vivemas)
+2023-01-16 14:10:15 [restartedMain] INFO  M4G.Vivemas.VivemasApplication - No active profile set, falling back to 1 default profile: "default"
+2023-01-16 14:10:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-16 14:10:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-16 14:10:15 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-16 14:10:16 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2023-01-16 14:10:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-01-16 14:10:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-16 14:10:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-01-16 14:10:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-16 14:10:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 814 ms
+2023-01-16 14:10:16 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-01-16 14:10:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-01-16 14:10:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-16 14:10:18 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-01-16 14:10:18 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-16 14:10:18 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-16 14:10:18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-16 14:10:18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 14:10:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-16 14:10:19 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-01-16 14:10:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-16 14:10:19 [restartedMain] INFO  M4G.Vivemas.VivemasApplication - Started VivemasApplication in 3.736 seconds (JVM running for 9.104)
+2023-01-16 14:13:07 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 14:13:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-16 14:13:07 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-16 14:13:07 [http-nio-8080-exec-1] INFO  M.V.controller.ViveComController - Factura [operacion=null, tipo_de_comprobante=1, serie=FFF1, numero=1868, sunat_transaction=1, cliente_tipo_de_documento=6, cliente_numero_de_documento=20600609239, cliente_denominacion=INTERMAX S.A.C., cliente_direccion=CAL. ERNESTO DIEZ CANSECO 236 INT. 403 MIRAFLORES - LIMA - LIMA, cliente_email=null, fecha_de_emision=02-11-2021, fecha_de_vencimiento=09-11-2021, moneda=2, tipo_de_cambio=3.40, porcentaje_de_igv=18.0, total_descuento=null, total_gravada=725.0, total_igv=130.5, total=855.5, observaciones=null, enviar_automaticamente_a_la_sunat=null, enviar_automaticamente_al_cliente=null, condiciones_de_pago=Neto 7, medio_de_pago=null, items=[Item [unidad_de_medida=ZZ, descripcion=-SERVICIO DE CONSULTORIA, CAPACITACION Y PUESTA EN MARCHA APPS ZOHO ONE:   -ZOHO CRM (Gestión de Ventas) -ZOHO CAMPAINGS (campañas de mail) -ZOHO SOCIAL (Redes sociales) -ZOHO DESK (Mesa de Ayuda) -N° DE CUOTA: 2/12  NOVIEMBRE, cantidad=1, valor_unitario=725.0, precio_unitario=855.5, descuento=null, subtotal=725.0, tipo_de_igv=null, igv=130.5, total=855.5, anticipo_regularizacion=null, codigo_producto_sunat=null]], venta_al_credito=null]
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-01-16 14:26:51 [RMI TCP Connection(20)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
